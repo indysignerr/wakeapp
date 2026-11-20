@@ -7,24 +7,28 @@ import { site } from "@/lib/site";
 
 const items = [
   {
-    q: "Is WakeApp free during the beta?",
-    a: "Yes. The TestFlight beta is free and includes the full feature set — dashboard, tasks, habits, schedule, focus, screen time control, blackout mode, notes, and all themes.",
+    q: "Is WakeApp free?",
+    a: "Downloading WakeApp is free on the App Store. WakeApp Pro costs 5.99 € a month, billed through your Apple account, and unlocks some features.",
   },
   {
-    q: "How do I get an invite?",
-    a: "Request one through the form on this page. We're rolling out invites in waves to keep the beta calm and the feedback loop tight. Most people get access within a few days.",
+    q: "Do I need an invite?",
+    a: "No. WakeApp is on the App Store: download it and create your account in the app.",
   },
   {
     q: "Which devices does WakeApp support today?",
-    a: "iPhone (iOS 17+) and iPad (iPadOS 17+). Android, macOS and Web are on the roadmap.",
+    a: "iPhone and iPad running iOS or iPadOS 16 or later. Android, macOS and Web are on the roadmap.",
+  },
+  {
+    q: "Which languages is WakeApp in?",
+    a: "English and French.",
   },
   {
     q: "Does WakeApp send my data to a server?",
-    a: "Screen Time data stays on-device, processed via Apple's native Screen Time API — we never see what's blocked. Your tasks, habits and notes sync through end-to-end-encrypted cloud storage so you can use WakeApp across your devices.",
+    a: "Yes, for your account. Your tasks, habits, notes and focus session history are stored on our servers so they sync across your devices. On iPhone, the apps and websites you select for blocking, and your Screen Time usage records, stay on your device through Apple's Screen Time framework.",
   },
   {
     q: "Can I bypass Focus Mode or Blackout if I really need to?",
-    a: "Yes, but it's deliberately slow. Focus Mode resets your streak on early exit. Blackout requires a ten-minute wait. The friction is the feature.",
+    a: "Yes, but it's deliberately slow. Focus Mode resets your streak on early exit. In Blackout, asking to leave starts a ten-minute countdown; if you switch apps or lock your screen during it, the countdown starts over. The friction is the feature.",
   },
   {
     q: "Will WakeApp work without the Screen Time controls?",

@@ -8,7 +8,6 @@ export const site = {
     "Tasks, habits, calendar, focus, and screen time control — unified into one calm environment. Built for the people who refuse to drift.",
   appStore: "https://apps.apple.com/app/id6760942950",
   contactEmail: "contact@the-wakeapp.com",
-  testFlight: "mailto:contact@the-wakeapp.com?subject=TestFlight%20invite%20request",
   social: {
     twitter: "https://x.com/wakeapp",
     instagram: "https://instagram.com/wakeapp",

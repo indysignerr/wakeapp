@@ -71,9 +71,10 @@ export function Blackout() {
               className="lead mt-6"
             >
               A higher gear of discipline. Apps and websites lock for the full
-              session. Requesting an exit costs you ten minutes of wait time
-              — long enough to think twice. Built for the days you need to
-              prove something to yourself.
+              session. Asking to leave starts a ten-minute countdown: keep
+              your eyes on the timer, because switching apps or locking your
+              screen starts it over. Built for the days you need to prove
+              something to yourself.
             </motion.p>
 
             <motion.div

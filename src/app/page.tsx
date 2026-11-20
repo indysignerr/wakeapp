@@ -7,7 +7,6 @@ import { Focus } from "@/components/sections/focus";
 import { Blackout } from "@/components/sections/blackout";
 import { ScreenTime } from "@/components/sections/screen-time";
 import { Ranks } from "@/components/sections/ranks";
-import { International } from "@/components/sections/international";
 import { FAQ } from "@/components/sections/faq";
 import { CTA } from "@/components/sections/cta";
 import { Footer } from "@/components/sections/footer";
@@ -25,7 +24,6 @@ export default function Home() {
         <Blackout />
         <ScreenTime />
         <Ranks />
-        <International />
         <FAQ />
         <CTA />
       </main>

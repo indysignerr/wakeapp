@@ -39,7 +39,7 @@ export function Footer() {
               long, quiet work of staying in command of yourself.
             </p>
             <p className="mt-6 font-mono text-[11px] uppercase tracking-[0.18em] text-ink-dim">
-              English · Français · 中文 · हिन्दी · Español · العربية
+              English · Français
             </p>
           </div>
 

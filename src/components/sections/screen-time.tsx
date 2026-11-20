@@ -8,7 +8,7 @@ const controls = [
   "Block specific websites and domains",
   "Global NSFW shield",
   "Schedule deliberate pauses",
-  "On-device — your data never leaves your phone",
+  "On iPhone, your app and website selections and usage records stay on your device",
 ];
 
 export function ScreenTime() {

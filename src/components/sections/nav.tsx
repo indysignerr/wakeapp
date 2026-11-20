@@ -59,8 +59,8 @@ export function Nav() {
         </nav>
 
         <div className="hidden md:flex items-center gap-2">
-          <Button href="/waitlist" size="sm" variant="primary">
-            Request invite
+          <Button href={site.appStore} size="sm" variant="primary">
+            Download
           </Button>
         </div>
 
@@ -96,13 +96,13 @@ export function Nav() {
             ))}
             <div className="mt-2 border-t border-line p-2">
               <Button
-                href="/waitlist"
+                href={site.appStore}
                 size="md"
                 variant="primary"
                 className="w-full"
                 onClick={() => setOpen(false)}
               >
-                Request invite
+                Download on the App Store
               </Button>
             </div>
           </nav>

@@ -21,7 +21,6 @@ export const metadata: Metadata = {
     "deep work",
     "blackout mode",
     "intentional living",
-    "TestFlight",
   ],
   authors: [{ name: "WakeApp" }],
   creator: "WakeApp",
@@ -58,6 +57,18 @@ export const viewport: Viewport = {
   colorScheme: "dark",
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  name: site.name,
+  description: site.shortDescription,
+  url: site.url,
+  downloadUrl: site.appStore,
+  applicationCategory: "ProductivityApplication",
+  operatingSystem: "iOS 16 or later, iPadOS 16 or later",
+  offers: { "@type": "Offer", price: "0", priceCurrency: "EUR" },
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -69,7 +80,13 @@ export default function RootLayout({
       className={cn(GeistSans.variable, GeistMono.variable, "dark")}
       suppressHydrationWarning
     >
-      <body className="min-h-screen overflow-x-hidden">{children}</body>
+      <body className="min-h-screen overflow-x-hidden">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        {children}
+      </body>
     </html>
   );
 }
